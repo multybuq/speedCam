@@ -13,6 +13,11 @@
 @interface ViewController : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate> {
     MKMapView *mapView;
     NSMutableArray *results;
+    UIImage *camImg;
+    BOOL firstFound;
+    CLLocationManager *locationManager;
+    UILabel *speed;
+    UINavigationBar *navBar;
 }
 
 @end

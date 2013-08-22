@@ -25,6 +25,7 @@
 		639CC35116C411A40053223E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 639CC35016C411A40053223E /* AddressBook.framework */; };
 		639CC35416C412590053223E /* cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 639CC35216C412590053223E /* cam.png */; };
 		639CC35516C412590053223E /* cam@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639CC35316C412590053223E /* cam@2x.png */; };
+		63CCFBAB17A8DD53000D2319 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CCFBAA17A8DD53000D2319 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		639CC35016C411A40053223E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		639CC35216C412590053223E /* cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cam.png; sourceTree = "<group>"; };
 		639CC35316C412590053223E /* cam@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cam@2x.png"; sourceTree = "<group>"; };
+		63CCFBAA17A8DD53000D2319 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CCFBAB17A8DD53000D2319 /* QuartzCore.framework in Frameworks */,
 				639CC35116C411A40053223E /* AddressBook.framework in Frameworks */,
 				639CC34C16C40DE20053223E /* MapKit.framework in Frameworks */,
 				639CC34A16C40DD50053223E /* CoreLocation.framework in Frameworks */,
@@ -91,6 +94,7 @@
 		639CC32316C40AFF0053223E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63CCFBAA17A8DD53000D2319 /* QuartzCore.framework */,
 				639CC35016C411A40053223E /* AddressBook.framework */,
 				639CC34B16C40DE20053223E /* MapKit.framework */,
 				639CC34916C40DD50053223E /* CoreLocation.framework */,
